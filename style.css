@@ -4,6 +4,10 @@ body {
   background-color: hsl(212, 45%, 89%);
   font-size: 15px;
   font-family: "Outfit", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(30%);
 }
 
 .container {
@@ -11,9 +15,6 @@ body {
   border-radius: 15px;
   height: 32rem;
   width: 20rem;
-  position: absolute;
-  left: 40%;
-  top: 20%;
 }
 
 h2 {
@@ -45,7 +46,7 @@ p {
     border-radius: 15px;
     height: 40rem;
     width: 20rem;
-    margin-left: 0;
+    margin-inline: auto;
   }
   img {
     width: 10rem;
