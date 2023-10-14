@@ -3,11 +3,11 @@
 body {
   background-color: hsl(212, 45%, 89%);
   font-size: 15px;
+  height: 100vh;
   font-family: "Outfit", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
-  transform: translateY(30%);
 }
 
 .container {
