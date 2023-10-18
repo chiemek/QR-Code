@@ -20,6 +20,7 @@ body {
 h2 {
   font-weight: 700;
   color: rgb(45, 45, 86);
+  margin-top: 0;
 }
 
 p {
@@ -31,7 +32,9 @@ p {
 img {
   width: 17rem;
   border-radius: 30px;
-  padding: 1.4rem;
+  padding-inline: 1.4rem;
+  padding-top: 1.4rem;
+  padding-bottom: 1.2rem;
 }
 
 h2,
